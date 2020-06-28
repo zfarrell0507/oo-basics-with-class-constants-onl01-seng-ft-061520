@@ -2,7 +2,7 @@ class Shoe
   attr_accessor :color, :size, :material, :condition  # remove the attr_accessor for genre
   attr_reader :brands, :unique_brand # add an attr_reader for genre
  
-  BRANDS = []
+  BRANDS = ["Uggs", "Rainbow"]
  
   def initialize(brands)
     @brands = brands
