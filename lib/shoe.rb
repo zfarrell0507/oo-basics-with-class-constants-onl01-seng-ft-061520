@@ -6,8 +6,6 @@ class Shoe
  
   def initialize(brands)
     @brands = brands
-  end
-  
   brands.each do |brand|
     Shoe.new(brand)
   end
